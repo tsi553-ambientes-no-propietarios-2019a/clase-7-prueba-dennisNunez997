@@ -18,7 +18,7 @@ if($_POST) {
 		if ($conn->error) {
 		echo 'Ocurrió un error ' .  $conn->error;
 		} else {
-		    redirect('../index.php');
+		    redirect('../inicio.php');
         }
         
         
@@ -30,7 +30,7 @@ if($_POST) {
 		exit;
 	}
 } else {
-	header('Location: ../registration.php');
+	header('Location: ../inicio.php');
 	exit;
 }
 ?>
